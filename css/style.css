@@ -55,7 +55,7 @@ body{
 	display: flex;
 	justify-content: center;
 }
-.Footer-text h5{
+.Footer-text h3{
 	font-size: 48px;
 	line-height: 47px;
 	color: #ffffff;
@@ -226,5 +226,39 @@ body{
 }
 
 @media screen and (max-width:767px){
+	.container-landing{
+		width: 96%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.Heard-text {
 
+	}
+	.Heard-text h1{
+		font-size: 40px;
+		line-height: 71px;
+	}
+	.Footer-text h3{
+		font-size: 27px;
+		line-height: 23px;
+		text-align: center;
+	}
+	.conteiner-course{
+		height: 3000px;
+		flex-direction: column;
+	}
+	.container-course{
+			height: 250vh;
+	}
+	.cont-header{
+		width: 100%;
+	}
+	.box-sugestion span{
+		font-size: 16px;
+	}
+	.box-single-course{
+		width: 92%;
+		margin: 2% 0;
+	}
 }
